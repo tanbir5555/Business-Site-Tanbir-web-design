@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="212" height="42.905" viewBox="0 0 212 42.905">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e93df5"/>
+      <stop offset="1" stop-color="#789cff"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_51" data-name="Group 51" transform="translate(0)">
+    <text id="Demo_Business" data-name="Demo Business" transform="translate(52 27.952)" fill="#bd62f9" font-size="20" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0">Demo</tspan><tspan y="0" fill="#6c63ff"> </tspan><tspan y="0" fill="#101921" font-family="Montserrat-SemiBold, Montserrat" font-weight="600">Business</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(0 0)">
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="25.512" height="25.512" rx="10" transform="translate(13.14 7.897) rotate(31)" fill="#101921"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="25.512" height="25.512" rx="10" transform="translate(27.111 0) rotate(31)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

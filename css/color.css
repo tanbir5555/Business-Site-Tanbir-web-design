@@ -1,0 +1,133 @@
+body{
+   
+}
+.check_circle{
+    color: #BD62F9;
+}
+.color_shadow{
+    box-shadow: 0 5px 17px rgba(189, 98, 249,0.21);
+    margin-top: 2rem;
+    border: 0px solid  rgba(189, 98, 249, 0);
+}
+.color_shadow:hover{
+        
+    box-shadow: 0 0px 17px rgba(189, 98, 249,0.1);
+    border: 0px solid  rgba(189, 98, 249,0.21);
+
+}
+.shadow_small{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.40);
+}
+.color_shadow_small{
+    box-shadow: 0 4px 6px rgba(189, 98, 249,0.61);
+}
+.overlay_item{
+    color:rgb(189, 98, 249);
+    opacity: 22%;
+}
+.overlay_item:hover{
+    transform:translateX(-100px);
+}
+.gadient{
+    background:linear-gradient(to right,rgb(233, 61, 245),rgb(120, 156, 255))
+}
+.color_bg{
+    color:rgb(189, 98, 249)
+}
+.sp_font{
+    color: rgb(189, 98, 249);
+    
+    
+}
+.sp_font:hover{
+    color:rgb(255, 0, 119);
+}
+footer{
+    background: rgb(28, 44, 58);
+}
+.design_rec_container{
+    width:100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 999px;
+    width: 100%;
+    overflow: hidden;
+    z-index: -200;
+}
+
+.design_rec{
+  height: 1021px;
+width: 821px;
+transform: rotate(49deg);
+background: linear-gradient(to right,rgb(233, 61, 245),rgb(120, 156, 255));
+position: absolute;
+right: -222px;
+top: -226px;
+border-radius: 294px;
+z-index: -1;
+}
+@media(max-width:1400px){
+      .design_rec{
+          right:-350px
+      }  
+}
+@media(max-width:1160px){
+   .design_rec{
+    top: -156px;
+right: -151px;
+height: 627px;
+width: 433px;
+border-radius: 150px;
+transform: rotate(55deg);
+   }
+   
+}
+@media(max-width:890px){
+ /*   .design_rec {
+    top: -26px;
+    right: -59px;
+    height: 652px;
+    width: 447px;
+    border-radius: 150px;
+    transform: rotate(60deg);
+}*/
+    .design_rec{
+        top: -113px;
+right: 14px;
+height: 714px;
+width: 451px;
+border-radius: 150px;
+transform: rotate(52deg);
+    }
+}
+@media(max-width:815px){
+    .design_rec{
+        top: -113px;
+right: 14px;
+height: 714px;
+width: 451px;
+border-radius: 150px;
+transform: rotate(52deg);
+    }
+}
+@media(max-width:758px){
+   .design_rec {
+    top: -157px;
+    right: -25px;
+    height: 679px;
+    width: 319px;
+    border-radius: 150px;
+    transform: rotate(53deg);
+}
+}
+@media(max-width:490px){
+   .design_rec {
+    top: -54px;
+right: -29px;
+height: 457px;
+width: 273px;
+border-radius: 150px;
+transform: rotate(57deg);
+}
+}

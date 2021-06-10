@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+      <script src="https://kit.fontawesome.com/1dfe27a900.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Business site</title>
+</head>
+
+<body>
+    <section>
+      <div class="inside mt-2">
+        <div class="design_rec_container"><div class="design_rec"></div></div>
+          <div class="container flex menu_container">
+              <div class="flex menu">
+                  <img src="img/logo.svg" alt="" class="logo">
+                  <ul class="menu_ul flex" style="flex-direction: row">
+                      <li><a class="btn_small trance font_500" href="#">Services</a></li>
+                    <li><a class="btn_small font_500 shadow_small" href="#">About us</a></li>
+                  </ul>
+            </div>
+          </div>
+      </div>
+    </section>
+
+
+
+    <!-- intro -->
+    <section>
+        <div class="container flex intro mt-4">
+            <div class="col_i_1 flex ">
+                <h2 class="h2">
+                    We Promise To Bring the Best
+                    <span class="sp_font font_700">Solution</span> To Your <span class="font_700">Business</span>
+                </h2>
+                <div class="intro_dec">
+                    <div class="buttons"><a href="#" class="btn">Learn More</a> <a href="#" class="btn_small trance">How
+                            it Works ?</a></div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, seed do euismod tempor incident UT
+                        labored et dolore magna
+                        aliquam. Bibendum Est ultrices integer quis. Iaculis urna id
+                    </div>
+                </div>
+            </div>
+            <div class="flex col_i_2 ">
+                <img src="img/first intro img.svg" alt="" class="intro_img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section>
+        <div class="background_shape"><img src="img/ovarlay.svg" alt="" class="overlay_svg"></div>
+        <div class="container">
+            <h2 class="section_header font_500 mb-3">
+                Services
+            </h2>
+            <div class="flex">
+                <div class="service_card color_shadow border_radius">
+                    <div class="service_card_icon"><img src="img/icons/start up icon.svg" alt="" srcset=""
+                            class="service_icon"></div>
+                    <h3 class="card_inner_header font_500">StartUp</h3>
+                    <p class="card_description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                    </p>
+                </div>
+
+
+                <div class="service_card color_shadow border_radius">
+                    <div class="service_card_icon"><img src="img/icons/marketing icon.svg" alt="" srcset="" class="service_icon"></div>
+                    <h3 class="card_inner_header font_500">Marketing</h3>
+                    <p class="card_description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                    </p>
+                </div>
+
+
+                <div class="service_card color_shadow border_radius">
+                    <div class="service_card_icon"><img src="img/icons/idea icon.svg" alt="" srcset="" class="service_icon"></div>
+                    <h3 class="card_inner_header font_500">Idea</h3>
+                    <p class="card_description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna
+                        aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- offer -->
+
+    <section>
+        <div class="container mt-4 mb-4">
+
+            <div class="flex border_radius color_shadow offer_card">
+                <div class="design_back"><img src="img/ovarlay.svg" alt="" srcset=""></div>
+                <div class="offer_col_1 alone_flex">
+                    <div class="count_down flex non_flex alone_flex">
+                        <div id="hour" class="count">12</div> <span class="sp_font">:</span>
+                        <div id="minute" class="count">25</div> <span class="sp_font">:</span>
+                        <div id="second" class="count">36</div>
+                    </div><div class="sp_font count_under_text">Remaining</div>
+                </div>
+                <div class="offer_col_2 alone_flex">
+                    <img src="img/offter img.svg" alt="" srcset="">
+                </div>
+                <div class="offer_col_3 flex">
+                    <div class="offer_text flex ">
+                        <div class="main_cost font_500">245$</div>
+                        <div class="offer_cost font_500">109$ Only</div>
+                        <div class="offer_tag">
+                            For 1 Months of membership
+                        </div>
+
+                    </div>
+                    <div class="offer_accept_btn">
+                        <a href="#" class="btn_small">Join us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script>
+     //timer Scripts
+        setInterval(() => {
+             const hour = document.getElementById("hour").innerHTML;
+            const minute = document.getElementById("minute").innerHTML;
+            const second = document.getElementById("second").innerHTML;
+            var newHour=12, newMinute=20, newSecond=10;
+            newSecond= second-1;
+            if(newSecond==0){
+                newSecond=59;
+                 document.getElementById("second").innerHTML = newSecond;
+                newMinute= minute-1;
+                if(newMinute==0){
+                    newMinute=59;
+                     document.getElementById("minute").innerHTML = newMinute;
+                    newHour= hour - 1;
+                    if(newHour==0){
+                        newHour=12;
+                        document.getElementById("hour").innerHTML = newHour;
+                    }else{
+                        newHour=newHour
+                        document.getElementById("hour").innerHTML = newHour;
+                    }
+                }else{
+                    newMinute=newMinute;
+                    document.getElementById("minute").innerHTML = newMinute;
+                }
+            }else{
+                document.getElementById("second").innerHTML = newSecond;
+            }
+            
+            
+            
+        }, 1000);
+    </script>
+
+
+<!-- peoples -->
+
+<section>
+    <div class="container">
+        <h2 class="section_header font_500 mb-3 mt-3">
+            Peoples
+        </h2>
+        <div class="flex">
+            <div class="service_card color_shadow border_radius peoples">
+                <div class="service_card_icon peoples_img"><img src="img/ceo.jpg" alt="" srcset="" class="service_icon">
+                </div>
+                <h3 class="card_inner_header font_500">CEO</h3>
+                <div class="small_name_tag">Jone Doe</div>
+                <div class="social_media_icons"><div class="social_icons flex non_flex">
+                    <a href="#" class="facebook">
+                    <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="twitter">
+                    <i class="fab fa-twitter"></i>
+
+                    </a>
+                    <a href="#" class="instagram">
+<i class="fab fa-instagram"></i>
+
+                    </a>
+                </div></div>
+                <p class="card_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                </p>
+            </div>
+    
+    
+            <div class="service_card color_shadow border_radius peoples">
+                <div class="service_card_icon peoples_img"><img src="img/manager.jpg" alt="" srcset=""
+                        class="service_icon"></div>
+                <h3 class="card_inner_header font_500">Manager</h3>
+                <div class="small_name_tag">Jems sarea</div>
+                <div class="social_media_icons">
+                    <div class="social_icons flex non_flex">
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                
+                        </a>
+                        <a href="#" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                
+                        </a>
+                    </div>
+                </div>
+                <p class="card_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                </p>
+            </div>
+    
+    
+            <div class="service_card color_shadow border_radius peoples">
+                <div class="service_card_icon peoples_img"><img src="img/best em.jpg" alt="" srcset="" class="service_icon">
+                </div>
+                <h3 class="card_inner_header font_500">Best Employee</h3>
+                <div class="small_name_tag">Dona se</div>
+                <div class="social_media_icons">
+                    <div class="social_icons flex non_flex">
+                        <a href="#" class="facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                
+                        </a>
+                        <a href="#" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                
+                        </a>
+                    </div>
+                </div>
+                <p class="card_description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna
+                    aliqua. Bibendum est ultricies integer quis. Iaculis urn
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- membership -->
+
+<section>
+    <div class="container">
+
+        <h2 class="section_header font_500 mb-3 mt-3">
+            Membership
+        </h2>
+        <div class="flex membership_flex">
+            <div class="service_card color_shadow border_radius membership">
+                <h3 class="card_inner_header font_500 ">Free Trail</h3>
+                <div class="card_description">
+                    <ul class="card_description_ul">
+                        <li class=" non_flex "> <div class="list_text">Free
+                            trail for 15 days</div></li>
+                        <li class=" non_flex "> <div class="list_text">Business Suggestions</div></li>
+                        <li class=" non_flex "> <div class="list_text">Meting with Other members</div></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="service_card color_shadow border_radius membership membership2">
+                <h3 class="card_inner_header font_500 ">For 1 Months of membership</h3>
+
+                <div class="main_cost font_500">245$</div>
+                <div class="offer_cost font_500"><span class="sp_font">109$</span> Only</div>
+
+                <div class="card_description">
+                    <ul class="card_description_ul">
+                        <li class=" non_flex "> <div class="list_text">Business Suggestions</div></li>
+                        <li class=" non_flex "> <div class="list_text">Meting with Other members
+                        </div></li>
+                        <li class=" non_flex "> <div class="list_text">Giving Business Ideas</div></li>
+                        <li class=" non_flex "> <div class="list_text">Money Management</div></li>
+                        <li class=" non_flex "> <div class="list_text">Class For Knowing Clients</div></li>
+                        <li class=" non_flex "> <div class="list_text">Class For How to do Sales</div></li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="service_card color_shadow border_radius membership membership2">
+                <h3 class="card_inner_header font_500 ">Yearly membership</h3>
+
+                <div class="main_cost font_500">3200$</div>
+                <div class="offer_cost font_500"><span class="sp_font">1955$</span>  Only</div>
+
+                <div class="card_description">
+                    <ul class="card_description_ul">
+                        <li class=" non_flex "> <div class="list_text">Business Suggestions
+                        </div></li>
+                        <li class=" non_flex "> <div class="list_text">Meting with Other
+                            members
+                        </div></li>
+                        <li class=" non_flex "> <div class="list_text">Giving Business
+                            Ideas</div></li>
+                        <li class=" non_flex "> <div class="list_text">Class For How improve Business</div></li>
+                        <li class=" non_flex "> <div class="list_text">We
+                            will do Marketing For you</div></li>
+                        <li class=" non_flex  super_li"> <div class="list_text">We
+                            will help you to find trusted
+                            Business partners</div></li>
+                        <li class=" non_flex "> <div class="list_text">We
+                            will help you to get a Bank loan</div></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer>
+    <div class="container">
+           <div class="flex footer_data">
+              <div class="footer_col_1">
+               <div class="logo"><img src="img/logo black.svg" alt="" srcset=""></div>
+                <div class="social_media_icons footer_ic">
+                    <div class="social_icons flex non_flex">
+                        <a href="#" class="facebook_">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="twitter_">
+                            <i class="fab fa-twitter"></i>
+                
+                        </a>
+                        <a href="#" class="instagram_">
+                            <i class="fab fa-instagram"></i>
+                
+                        </a>
+                        <a href="#" class="pinterest">
+                            <i class="fab fa-pinterest-p"></i>
+                        
+                        </a>
+                        <a href="#" class="pinterest">
+                           
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="pinterest">
+                        
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            <div class="footer_col_2">
+            <h3 class="footer_inner_header">COMPANY</h3>
+            <ul class="footer_items_ul">
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Our works</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+            </div>
+            <div class="footer_col_3">
+            <h3 class="footer_inner_header">SERVICE</h3>
+            <ul class="footer_items_ul">
+                <li><a href="#">For Small Business</a></li>
+                <li><a href="#">For Large Business</a></li>
+                <li><a href="#">For Marketing Teams</a></li>
+                <li><a href="#">For Bank loans</a></li>
+            </ul>
+            </div>
+            <div class="footer_col_4">
+                <div class="col_4_items">
+                    <h3 class="footer_inner_header">EMAIL US</h3>
+                    <ul class="footer_items_ul">
+                        <li>demobusiness@gmail.com</li>
+                    
+                    </ul>
+                </div>
+                <div class="col_4_items">
+                    <h3 class="footer_inner_header">Call us</h3>
+                    <ul class="footer_items_ul">
+                        <li>+75 254 546-1223</li>
+                
+                    </ul>
+                </div>
+                <div class="col_4_items">
+                    <h3 class="footer_inner_header">Address</h3>
+                    <ul class="footer_items_ul">
+                        <li>Demo Company Ltd</li>
+                        <li>250 demo Road</li>
+                        <li>Bangladesh , 01546</li>
+                        <li></li>
+                
+                    </ul>
+                </div>
+            </div>
+            </div>
+            
+           </div>
+    </div>
+    <div class="container last_footer"><small>
+        © 2021 Tanbir Hawlader All rights reserved.
+    </small></div>
+</footer>
+</body>
